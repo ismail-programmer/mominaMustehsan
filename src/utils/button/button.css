@@ -1,0 +1,42 @@
+.btn-music{
+  width: 15rem;
+  padding: 1rem 0;
+  margin: 3rem 0 3rem 21rem ;
+  background:#00ff00;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  font-family: inherit;
+  position: relative;
+  z-index: 1;
+}
+.btn-music::before , .btn-music::after{
+  content: "";
+  height: 100%;
+  width: 3px;
+  position: absolute;
+  transform: scale(0);
+  background:#fd70a0 ;
+  transition: width 0.5s 0.3s cubic-bezier(1,0,0,1), transform 0.2s,;
+  border-radius: 5px;
+  top: 0;
+}
+.btnspan{
+  position: relative;
+  z-index: 2;
+}
+.btn-music::before{
+  left: 0;
+  
+}
+.btn-music::after{
+  
+  right: 0;
+  z-index: -1;
+}
+.btn-music:hover::after , .btn-music:hover::before{
+  width: 100%;
+  transform: scale(1)
+}
