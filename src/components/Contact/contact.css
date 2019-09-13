@@ -58,12 +58,12 @@
 /* On focus */
 .inputFeild:focus {
     box-shadow: 0 1rem 4rem;
-    border-bottom: 2px solid green;
+    border-bottom: 3px solid green;
 }
 /* On invalid */
 
 .inputFeild:focus:invalid {
-  border-bottom: 2px solid red;
+  border-bottom: 3px solid red;
 }
 /* Numbers background image removing */
 .numberInput::-webkit-inner-spin-button{

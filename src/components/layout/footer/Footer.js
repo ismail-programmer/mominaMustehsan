@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './footer.css';
 import image from '../../../images/gmail.png';
 class Footer extends Component {
@@ -40,11 +40,11 @@ class Footer extends Component {
           </div>
         </div>
         <div className='row'>
-            <Link className='footer-a-2 contact-link' to='/contact'>
-          <div className='contact-page'>
+          <Link className='footer-a-2 contact-link' to='/contact'>
+            <div className='contact-page'>
               Go to Contact Page <span className='footer-span'>&rarr;</span>
-          </div>
-            </Link>
+            </div>
+          </Link>
           <div className='col-1-of-2'>
             <div className='copyright'>
               <p>&copy;2019 . All rights Reserved</p>
