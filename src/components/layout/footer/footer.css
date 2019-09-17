@@ -204,7 +204,7 @@
 
 @media only screen and (max-width: 475px) {
   .singer-name {
-    font-size: 2rem;
+    font-size: 3rem;
     display:inline-block;
     text-align: center;
   }
