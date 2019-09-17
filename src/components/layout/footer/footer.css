@@ -1,104 +1,232 @@
-@import "https://fonts.googleapis.com/css?family=Comfortaa|Righteous|Tangerine&display=swap";
-.row{
-    max-width: 114rem;
-    margin: 0  ;
-    padding-top: 1rem;
-    padding-left: 3rem;
-    float: left;
-    color: #e0e0e0;
+@import 'https://fonts.googleapis.com/css?family=Comfortaa|Righteous|Tangerine&display=swap';
+.rows {
+  max-width: 114rem;
+  margin: 0;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  float: left;
+  color: #e0e0e0;
 }
-.footer-container{
-    background-color: #202020;
+.footer-container {
+  background-color: #202020;
+  width: 100%;
+  height: 35rem;
+}
+
+.rows:not(:last-child) {
+  margin-bottom: 8rem;
+}
+.col-1-of2 {
+  width: 54rem;
+  float: left;
+}
+.col-1-of2:not(:last-child) {
+  margin-right: 6rem;
+}
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.arrow {
+  width: 5rem;
+  float: left;
+  height: 19.8rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-color: #fff;
+  border-bottom: 1px solid #202020;
+  transform: translateY(3rem);
+}
+.footer-a {
+  font-size: 6rem;
+  text-decoration: none;
+  color: #444;
+}
+.footer-h1 {
+  font-size: 3rem;
+  color: #e0e0e0;
+}
+.singer-name {
+  font-family: Tangerine;
+  letter-spacing: 7px;
+  word-spacing: 10px;
+  font-size: 7rem;
+  color: #fff;
+}
+.footer-a-2 {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.footer-a-2:hover {
+  color: #e0e0e0;
+}
+.contact-page {
+  float: left;
+  padding: 1.5rem;
+  transform: translateY(-4rem);
+  border: 1px solid #777;
+}
+.footer-icon {
+  transform: translateY(5px);
+}
+
+.footer-li {
+  display: inline;
+  padding-right: 2rem;
+}
+.footer-ul {
+  list-style: none;
+}
+.footer-span {
+  margin-left: 1rem;
+}
+.contact-link {
+  padding: 1rem;
+}
+.translate {
+  transform: translateY(-9rem);
+  padding-left: 3rem;
+}
+.address {
+  font-size: 20px;
+  color: #f7f7f7;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+}
+.copyright {
+  float: left;
+  transform: translateX(38rem) translateY(-3rem);
+  font-size: 18px;
+}
+
+/* ? Responsive ness */
+
+/* ! fIRST */
+@media only screen and (max-width: 1237px) {
+  .singer-name {
+    font-size: 5rem;
+  }
+  .hidden {
+    display: none;
+  }
+  .footer-h1 {
+    display: inline-block;
+    /* margin: 0 */
+  }
+  .textCopyright {
+    display: inline-block;
+    position: absolute;
+    top: 7rem;
+    right: 10rem;
+  }
+  .footer-container {
     width: 100%;
-    height: 35rem;
+    height: auto;
+    position: relative;
+  }
+  .rows {
+    background-color: black;
+  }
+  .rows-1 {
+    padding: 0;
+  }
+  .rows:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
-.row:not(:last-child){
-    
-    margin-bottom: 8rem;
-}
-.col-1-of-2{
-    width: 54rem;
-    float: left;
-}
-.col-1-of-2:not(:last-child){
-    margin-right: 6rem;
-}
-.row::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.arrow{
-    width: 5rem;
-    float: left;
-    height: 19.8rem;
-    padding-top: 10rem;
+
+/* ! 2nd */
+
+@media only screen and (max-width: 800px) {
+  .singer-name {
     text-align: center;
-    background-color: #fff;
-    border-bottom:1px solid #202020 ;
-    transform: translateY(3rem)
-}
-.footer-a{
-    font-size: 6rem;
-    text-decoration: none;
-    color: #444;
-}
-.footer-h1{
-    font-size: 3rem;
-    color: #e0e0e0
-}
-.singer-name{
-    font-family:Tangerine;
-    letter-spacing: 7px;
-    word-spacing: 10px;
     font-size: 7rem;
-    color: #fff
+  }
+  .hidden {
+    display: none;
+  }
+  .footer-h1 {
+    display: block;
+  }
 
+  .footer-container {
+    width: 100%;
+    height: auto;
+  }
+  .rows {
+    background-color: black;
+  }
+  .rows-1 {
+    margin: 0;
+    padding: 0;
+  }
+  .rows:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .textCopyright {
+    display: none;
+  }
 }
-.footer-a-2{
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
+/* ! 3rd */
 
-}
-.footer-a-2:hover{
-    color: #e0e0e0
-}
-.contact-page{
-    float: left;
-    padding: 1.5rem;
-    transform: translateY(-4rem);
-    border: 1px solid #777
-}
-.footer-icon{
-    transform: translateY(5px)
+@media only screen and (max-width: 610px) {
+  .singer-name {
+    font-size: 3rem;
+    text-align: center;
+    display:inline-block;
+  }
+  .hidden {
+    display: none;
+  }
+
+  .footer-container {
+    width: 100%;
+    height: auto;
+  }
+  .rows {
+    background-color: black;
+  }
+  .rows-1 {
+    padding: 0;
+    margin: 0;
+  }
+  .rows:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .textCopyright {
+    display: none;
+  }
 }
 
-.footer-li{
-    display: inline;
-    padding-right: 2rem
-}
-.footer-ul{
-    list-style: none;
-}
-.footer-span{
-    margin-left: 1rem;
-}
-.contact-link{
-    padding: 1rem
-}
-.translate{
-    transform: translateY(-9rem);
-    padding-left: 3rem;
-}
-.address{
-    font-size: 20px;
-    color: #f7f7f7;
-    letter-spacing: 3px;
-    word-spacing: 6px
-}
-.copyright{
-    float: left;
-    transform: translateX(38rem) translateY(-3rem);
-    font-size: 18px
+/* ! 4rth */
+
+@media only screen and (max-width: 475px) {
+  .singer-name {
+    font-size: 2rem;
+    display:inline-block;
+    text-align: center;
+  }
+  .hidden {
+    display: none;
+  }
+
+  .footer-container {
+    width: 100%;
+    height: auto;
+  }
+  .rows {
+    background-color: black;
+  }
+  .rows-1 {
+    padding: 0;
+    margin: 0;
+  }
+  .rows:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .textCopyright {
+    display: none;
+  }
 }

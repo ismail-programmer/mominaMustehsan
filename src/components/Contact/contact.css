@@ -1,18 +1,30 @@
 /* Contact Container */
 .contact-container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
   background-image: url(../../images/bgContact.png);
   background-size: cover;
+  padding-bottom: 10rem;
 }
 
 /* heading of this page */
-.first-heading{
-    font-size:7rem;
-    margin: 0;
+.first-heading {
+  font-size: 7rem;
+  margin: 0;
 }
+
 .contact-heading {
+  text-shadow: 0px 0px 10px #000;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.heading-2::first-letter {
+  font-size: 5rem
+}
+
+.contact-heading::first-letter {
+  font-size: 12rem
 }
 
 /*  form of  this page */
@@ -41,41 +53,45 @@
 .second {
   padding-left: 10rem;
 }
+
 /* Form First paragrap */
 .third {
   padding-left: 5rem;
 }
+
 /* ! Input feilds */
 .inputFeild {
-  height: 1rem;
-  padding: 1rem;
+  width: 160px;
+  padding: 1.3rem 0 1.3rem 2rem;
   border-radius: 0.5rem;
   border: none;
+  margin: 5px;
   transition: all 0.2s;
   outline: none;
-  box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0,0.5);
+  box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid transparent
 }
+
 /* On focus */
 .inputFeild:focus {
-    box-shadow: 0 1rem 4rem;
-    border-bottom: 3px solid green;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid green;
+  transform: scale(1.1) translateY(-3px);
 }
+
 /* On invalid */
 
 .inputFeild:focus:invalid {
   border-bottom: 3px solid red;
 }
+
 /* Numbers background image removing */
-.numberInput::-webkit-inner-spin-button{
--webkit-appearance: none;
+.numberInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 /* placeholders */
-.inputFeild::-webkit-input-placeholder{
-font-style: italic;
-letter-spacing: .2rem;
+.inputFeild::-webkit-input-placeholder {
+  color: #999;
+  font-size: 16px
 }
-
-
-
-

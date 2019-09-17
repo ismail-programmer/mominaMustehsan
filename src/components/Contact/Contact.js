@@ -12,7 +12,7 @@ class Contact extends Component {
       <div className='contact-container'>
         <div className='contact-heading'>
           <h1 className='first-heading'>Contact Us</h1>
-          <h1>With all your Inbound Needs</h1>
+          <h1 className='heading-2'>With all your Inbound Needs</h1>
         </div>
 
         <div className='contact-form'>
@@ -70,7 +70,7 @@ class Contact extends Component {
                 className='inputFeild'
               />
             </p>
-            <Button btn='Send' />
+            <Button btn='Send' btnID='btn-2' spanID='btnspan' />
           </form>
         </div>
       </div>

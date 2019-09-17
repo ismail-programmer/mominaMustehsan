@@ -27,7 +27,7 @@ class Home extends Component {
         </div>
         <section className="section_shows">
           <Link to="/shows" className="links-white">
-            {" "}
+            
             <h2> Upcoming Shows</h2>
           </Link>
           <p>NEW ORLEANS JAZZ FESTIVAL, NOVEMBER 2023</p>
@@ -47,7 +47,7 @@ class Home extends Component {
 
         <section className="section_news">
           <Link to="/news" className="links-black">
-            {" "}
+            
             <h2 className="newsheading"> Latest News</h2>
           </Link>
           <p>Momina Mustehsan In Pakistani Magzines</p>
@@ -79,6 +79,7 @@ class Home extends Component {
           <Link className="links-black" to="/music">
           <Button 
           btn='Music'
+          btnID='btn-1'
            />
           </Link>
         </section>

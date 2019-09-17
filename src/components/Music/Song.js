@@ -3,15 +3,15 @@ import "./song.css"
 const Song = (props) => {
   return (
     <div>
-       <div className='strange1' >
-          <div className='card-side-front card-side'>
+       <div className='strange1' id={props.card}>
+          <div className='card-side-front card-side' id={props.cardSideFront}>
           <div className="images"> <img className='img' alt="pic of song" width="100%" height="70%"  src={props.img} /> </div>
             <h4 className='card-heading'>
               <span className='heading-span'  id={props.titleSong} >{props.tag}   </span>
             </h4>
             <div className='card-details'>
               <ul className='card-ul'>
-                <li className='card-li' id={props.titleSong}>{props.title}</li>
+                <li className='card-li ' id={props.titleSong}>{props.title}</li>
                 <br/>
                 <br/>
                 <li className='card-li'>Views:{props.viwes}</li>

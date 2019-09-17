@@ -13,6 +13,9 @@
   letter-spacing: 5px;
   font-size: 4rem;
 }
+.nameHeading::first-letter{
+  font-size: 7rem
+}
 .intro {
   padding: 15% 10%;
   line-height: 12px;

@@ -6,16 +6,16 @@ class Footer extends Component {
   render() {
     return (
       <div className='footer-container'>
-        <a className='footer-a' href='#header'>
+        <a className='footer-a hidden' href='#header'>
           {' '}
           <div className='arrow'> &uarr;</div>
         </a>
-        <div className='row'>
-          <div className='col-1-of-2'>
+        <div className='rows'>
+          <div className='col-1-of2 full'>
             <h1 className='footer-h1 singer-name'>Momina Mustehsan</h1>
           </div>
-          <div className='col-1-of-2'>
-            <div>
+          <div className='col-1-of2'>
+            <div className="hidden">
               <h1 className='footer-h1'>Contact</h1>
 
               <p>
@@ -39,14 +39,14 @@ class Footer extends Component {
             </div>
           </div>
         </div>
-        <div className='row'>
-          <Link className='footer-a-2 contact-link' to='/contact'>
-            <div className='contact-page'>
+        <div className='rows rows-1'>
+          <Link className='footer-a-2 contact-link hidden' to='/contact'>
+            <div className='contact-page hidden'>
               Go to Contact Page <span className='footer-span'>&rarr;</span>
             </div>
           </Link>
-          <div className='col-1-of-2'>
-            <div className='copyright'>
+          <div className='col-1-of2 textCopyright '>
+            <div className='copyright '>
               <p>&copy;2019 . All rights Reserved</p>
             </div>
           </div>

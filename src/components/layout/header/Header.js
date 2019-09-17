@@ -21,16 +21,6 @@ class Header extends Component {
               </Link>
             </li>
             <li className='header-li'>
-              <Link className='header-a' to='/shows'>
-                <button className='header-btn'>Shows</button>
-              </Link>
-            </li>
-            <li className='header-li'>
-              <Link className='header-a' to='/news'>
-                <button className='header-btn'>News</button>
-              </Link>
-            </li>
-            <li className='header-li'>
               <Link className='header-a' to='/gallery'>
                 <button className='header-btn'>Gallery</button>
               </Link>

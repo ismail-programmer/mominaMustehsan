@@ -15,7 +15,7 @@ import yaryiaanImg from '../../images/maxresdefault (1).jpg';
 import jelia from '../../images/jeelia.jpg';
 import meirasta from '../../images/meirasta.jpg';
 
-// import img1 from '../../images/ishq.jpg';
+// ?import img1 from '../../images/ishq.jpg';
 
 //! Songs
 import afreen from '../../audio/Afreen Afreen ( Momina mustehsan voice only).mp3';
@@ -44,10 +44,7 @@ class Music extends Component {
         <div className='pageHeading'>
           <h1 className='mainHeading'>Music</h1>
           <p className='description'>
-            {' '}
-            <i>
-              <b> Music Library to be shown!</b>
-            </i>
+             Music Library to be shown!
           </p>
         </div>
 
@@ -63,6 +60,7 @@ class Music extends Component {
               img={afreenImg}
               bgColor='card1'
               titleSong='title1'
+              cardSideFront='card-side-front-1'
             />
           </div>
           <div className='col-1-of-3'>
@@ -74,6 +72,7 @@ class Music extends Component {
               img={jeeliyaImg}
               bgColor='card2'
               titleSong='title2'
+              cardSideFront='card-side-front-2'
             />
           </div>
           <div className='col-1-of-3'>
@@ -85,6 +84,8 @@ class Music extends Component {
               img={ayaImg}
               bgColor='card3'
               titleSong='title3'
+              cardSideFront='card-side-front-3'
+              card='dock'
             />
           </div>
         </div>
@@ -101,6 +102,8 @@ class Music extends Component {
               img={awariImg}
               bgColor='card4'
               titleSong='title4'
+              cardSideFront='card-side-front-4'
+              card='dock'
             />
           </div>
           <div className='col-1-of-3'>
@@ -112,6 +115,7 @@ class Music extends Component {
               img={afreenImg}
               bgColor='card5'
               titleSong='title5'
+              cardSideFront='card-side-front-5'
             />
           </div>
           <div className='col-1-of-3'>
@@ -123,6 +127,7 @@ class Music extends Component {
               img={meirasta}
               bgColor='card1'
               titleSong='title1'
+              cardSideFront='card-side-front-1'
             />
           </div>
         </div>
@@ -139,6 +144,7 @@ class Music extends Component {
               img={mahiImg}
               bgColor='card2'
               titleSong='title2'
+              cardSideFront='card-side-front-2'
             />
           </div>
           <div className='col-1-of-3'>
@@ -150,6 +156,8 @@ class Music extends Component {
               img={jelia}
               bgColor='card3'
               titleSong='title3'
+              cardSideFront='card-side-front-3'
+              card='dock'
             />
           </div>
           <div className='col-1-of-3'>
@@ -161,6 +169,8 @@ class Music extends Component {
               img={kokoImg}
               bgColor='card4'
               titleSong='title4'
+              cardSideFront='card-side-front-4'
+              card='dock'
             />
           </div>
         </div>
@@ -177,6 +187,7 @@ class Music extends Component {
               img={yaryiaanImg}
               bgColor='card5'
               titleSong='title5'
+              cardSideFront='card-side-front-5'
             />
           </div>
           <div className='col-1-of-3'>
@@ -188,6 +199,7 @@ class Music extends Component {
               img={hrzulmImg}
               bgColor='card1'
               titleSong='title1'
+              cardSideFront='card-side-front-1'
             />
           </div>
           <div className='col-1-of-3'>
@@ -199,6 +211,7 @@ class Music extends Component {
               img={awariImg}
               bgColor='card2'
               titleSong='title2'
+              cardSideFront='card-side-front-2'
             />
           </div>
         </div>
@@ -215,6 +228,8 @@ class Music extends Component {
               img={khudaImg}
               bgColor='card3'
               titleSong='title3'
+              cardSideFront='card-side-front-3'
+              card='dock'
             />
           </div>
           <div className='col-1-of-3'>
@@ -226,6 +241,8 @@ class Music extends Component {
               img={whenImg}
               bgColor='card4'
               titleSong='title4'
+              cardSideFront='card-side-front-4'
+              card='dock'
             />
           </div>
           <div className='col-1-of-3'>
@@ -237,6 +254,7 @@ class Music extends Component {
               img={awariImg}
               bgColor='card5'
               titleSong='title5'
+              cardSideFront='card-side-front-5'
             />
           </div>
         </div>

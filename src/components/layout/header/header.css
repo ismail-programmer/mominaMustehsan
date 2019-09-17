@@ -281,6 +281,8 @@
   transform: rotate(-495deg);
 }
 
+/* ! media query # 1 */
+
 @media (max-width: 1126px) and (min-width: 626px) {
   .nav-btn {
     opacity: 01;
@@ -323,7 +325,7 @@
   }
 }
 
-/* ! Media Quary # 2 ! */
+/* ! Media Quary # 2 */
 @media (max-width: 626px) and (min-width: 310px) {
   .nav-btn {
     opacity: 01;
