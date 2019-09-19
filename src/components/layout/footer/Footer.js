@@ -14,7 +14,7 @@ class Footer extends Component {
           <div className='col-1-of2 full'>
             <h1 className='footer-h1 singer-name'>Momina Mustehsan</h1>
           </div>
-          <div className='col-1-of2'>
+          <div className='col-1-of2 hidden'>
             <div className="hidden">
               <h1 className='footer-h1'>Contact</h1>
 

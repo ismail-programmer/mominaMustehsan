@@ -23,7 +23,7 @@ const Song = (props) => {
               <div className='more-info'>
                 <p className='card-pg-1'>Play the song</p>
               </div>
-              <audio src={props.audio} controls></audio>
+              <div className='music-card'><audio src={props.audio} controls></audio></div>
             </div>
           </div>
         </div>

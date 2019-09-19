@@ -89,61 +89,43 @@ class Header extends Component {
               <li className='nav-item-1'>
                 <div className='nav-link'>
                   <span className='nav-span'>01</span>
-                  <a className='nav-link-1' href='/'>
+                  <Link className='nav-link-1' to='/home'>
                     Home
-                  </a>
+                  </Link>
                 </div>
               </li>
 
               <li className='nav-item-1'>
                 <div className='nav-link'>
                   <span className='nav-span'>02</span>
-                  <a className='nav-link-1' href='/'>
+                  <Link className='nav-link-1' to='/music'>
                     Music
-                  </a>
+                  </Link>
                 </div>
               </li>
 
               <li className='nav-item-1'>
                 <div className='nav-link'>
                   <span className='nav-span'>03</span>
-                  <a className='nav-link-1' href='/'>
-                    Shows
-                  </a>
+                  <Link className='nav-link-1' to='/gallery'>
+                    Gallery
+                  </Link>
                 </div>
               </li>
-
               <li className='nav-item-1'>
                 <div className='nav-link'>
                   <span className='nav-span'>04</span>
-                  <a className='nav-link-1' href='/'>
-                    News
-                  </a>
+                  <Link className='nav-link-1' to='/bio'>
+                    Bio
+                  </Link>
                 </div>
               </li>
-
               <li className='nav-item-1'>
                 <div className='nav-link'>
                   <span className='nav-span'>05</span>
-                  <a className='nav-link-1' href='/'>
-                    Gallery
-                  </a>
-                </div>
-              </li>
-              <li className='nav-item-1'>
-                <div className='nav-link'>
-                  <span className='nav-span'>06</span>
-                  <a className='nav-link-1' href='/'>
-                    Bio
-                  </a>
-                </div>
-              </li>
-              <li className='nav-item-1'>
-                <div className='nav-link'>
-                  <span className='nav-span'>07</span>
-                  <a className='nav-link-1' href='/'>
+                  <Link className='nav-link-1' to='/contact'>
                     Contact
-                  </a>
+                  </Link>
                 </div>
               </li>
             </ul>

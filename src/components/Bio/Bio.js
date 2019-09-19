@@ -8,6 +8,7 @@ class Bio extends Component {
     return (
       <div>
         <div className="bio-container-main">
+          <div className="bio-m">
           <div className="bio-container c5">
             <h1 className="bio-h1">Intrdoduction</h1>
             <p className="bio-pg">
@@ -39,6 +40,8 @@ class Bio extends Component {
             </p>
           </div>
 
+          </div>
+          <div className="bio-m">
           <div className="bio-container c3">
             <h1 className="bio-h1">Career</h1>
             <p className="bio-pg">
@@ -69,6 +72,8 @@ class Bio extends Component {
               considerable measure once the tunes were recorded.
             </p>
           </div>
+          </div>
+          <div className="bio-m">
           <div className="bio-container c4">
             <h1 className="bio-h1">Engagement</h1>
             <p className="bio-pg">
@@ -105,6 +110,8 @@ class Bio extends Component {
               science.
             </p>
           </div>
+          </div>
+          <div className="bio-m">
           <div className="bio-container c4">
             <h1 className="bio-h1">Simplicity</h1>
             <p className="bio-pg p4">
@@ -141,6 +148,8 @@ class Bio extends Component {
               considered. She hates the conversations that are not constructive.
             </p>
           </div>
+          </div>
+          <div className="bio-m">
           <div className="bio-container c7">
             <h1 className="bio-h1">Fame</h1>
             <p className="bio-pg p4">
@@ -169,6 +178,7 @@ class Bio extends Component {
               meeting she said that singing was not job to her, rather it was
               her obsession.
             </p>
+          </div>
           </div>
         </div>
       </div>

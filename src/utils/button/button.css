@@ -1,8 +1,8 @@
-.btn-music{
+.btn-1 {
   width: 15rem;
   padding: 1rem 0;
-  margin: 3rem 0 3rem 21rem ;
-  background:#00ff00;
+  margin: 3rem 0;
+  background: #00ff00;
   border-radius: 5px;
   color: #fff;
   border: none;
@@ -11,32 +11,101 @@
   font-family: inherit;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
-.btn-music::before , .btn-music::after{
+
+.btn-1::before,
+.btn-1::after {
   content: "";
   height: 100%;
   width: 3px;
   position: absolute;
-  transform: scale(0);
-  background:#fd70a0 ;
-  transition: width 0.5s 0.3s cubic-bezier(1,0,0,1), transform 0.2s,;
-  border-radius: 5px;
+  transform: scaleY(0);
+  background: #fd70a0;
+  transition: width 0.4s 0.2s cubic-bezier(1, 0, 0, 1), transform 0.2s, ;
   top: 0;
-}
-.btnspan{
-  position: relative;
-  z-index: 2;
-}
-.btn-music::before{
-  left: 0;
-  
-}
-.btn-music::after{
-  
-  right: 0;
   z-index: -1;
 }
-.btn-music:hover::after , .btn-music:hover::before{
+
+.btnspan {
+  position: relative;
+}
+
+.btn-1::before {
+  left: 0;
+
+}
+
+.btn-1::after {
+
+  right: 0;
+}
+
+.btn-1:hover::after,
+.btn-1:hover::before {
+  width: 50%;
+  transform: scaleY(1);
+}
+
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 5px;
+  transition: all 0.2s;
+  backface-visibility: hidden;
+  position: relative;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+  color: #777;
+  background-color:#ffd452;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0 , 0.5);
+  outline: none
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .7)
+}
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
   width: 100%;
-  transform: scale(1)
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .5s;
+  background-color:#ffd452;
+  outline: none;
+  outline-offset: 5rem;
+}
+
+.btn:hover::after {
+  /* transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0; */
+  animation: outlineAnimation 1s infinite
+}
+@keyframes outlineAnimation{
+  0%{
+    transform: scaleX(1) scaleY(1);
+    opacity: 1;
+  }
+  100%{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+}
+.btn-container{
+  max-width: 100px;
+  margin: 0 auto;
+  text-align: center;
 }

@@ -71,8 +71,7 @@ class Contact extends Component {
               />
             </p>
             <div className="btnDiv">
-
-            <Button btn='Send' btnID='btn-2' spanID='btnspan' />
+            <Button btn='Send' btnID='btn' spanID='btnspan' />
             </div>
           </form>
         </div>
@@ -80,5 +79,4 @@ class Contact extends Component {
     );
   }
 }
-
 export default Contact;

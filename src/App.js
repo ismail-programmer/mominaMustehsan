@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import Music from './components/Music/Music';
-import Gallery from './components/Gallery/Gallery';
+// import Gallery from './components/Gallery/Gallery';
 import Bio from './components/Bio/Bio';
 import Contact from './components/Contact/Contact';
 
@@ -24,7 +24,7 @@ function App() {
         <Route path='/home' component={Home} />
         <Route path='/music' component={Music} />
 
-        <Route path='/gallery' component={Gallery} />
+        {/* <Route path='/gallery' component={Gallery} /> */}
         <Route path='/bio' component={Bio} />
 
         <Route path='/contact' component={Contact} />
