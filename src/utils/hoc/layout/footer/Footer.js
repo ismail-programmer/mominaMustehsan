@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './footer.css';
-import image from '../../../images/gmail.png';
+import image from '../../../../images/gmail.png';
 class Footer extends Component {
   render() {
     return (
@@ -15,25 +15,25 @@ class Footer extends Component {
             <h1 className='footer-h1 singer-name'>Momina Mustehsan</h1>
           </div>
           <div className='col-1-of2 hidden'>
-            <div className="hidden">
+            <div className='hidden'>
               <h1 className='footer-h1'>Contact</h1>
 
               <p>
                 <a
                   className='footer-a-2'
-                  href='info.momina.mustehsan@gmail.com'
+                  href='mailto:info.momina.mustehsan@gmail.com'
                 >
                   <img className='footer-icon' width='25' src={image} alt='' />{' '}
-                  info.momina.mustehsan@gmail.com
+                  Assistant
                 </a>
               </p>
               <p>
                 <a
                   className='footer-a-2'
-                  href='mominamustehsan.infoamerica@gmail.com'
+                  href='mailto:mominamustehsan.infoamerica@gmail.com'
                 >
                   <img className='footer-icon' width='25' src={image} alt='' />{' '}
-                  mominamustehsan.infoamerica@gmail.com
+                  Private
                 </a>
               </p>
             </div>

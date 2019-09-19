@@ -1,55 +1,27 @@
-/* ! Home page main div */
-
-.maindiv {
-  background-image: url(../../images/wallpaper7.jpg);
-  height: 100%;
-  background-size: cover;
-}
-/*  home page main heading  and intro*/
-
-.nameHeading {
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 5px;
-  font-size: 4rem;
-}
-.nameHeading::first-letter{
-  font-size: 7rem
-}
-.intro {
-  padding: 15% 10%;
-  line-height: 12px;
-  font-size: 1.6rem
-}
 /* ?  Universal */
 
-/*   Gap line <hr/> */
+/* ? for black color  */
+.allBlack {
+  color: black;
+}
+
+/*   *  Gap line <hr/> */
 .gap {
   width: 10%;
 }
 
-/* about para  */
-
-.about_shows {
-  display: block;
-  font-weight: 500;
-  line-height: 20px;
-}
-
-/* *** Section shows */
-
-.section_shows {
-  background: rgba(0, 0, 0, 0.5);
-  width: 35%;
-  margin-left: 10%;
-  color: white;
+/* ? For all sections */
+.section {
+  background-image: linear-gradient(360deg, #00000080 35%, #ffffff80 80%);
+  width: 50%;
+  margin: 2rem auto;
   font-weight: 300;
-  line-height: 20px;
-  padding: 1%;
+  line-height: 3;
+  padding: 3rem;
   font-size: 1.6rem;
+  color: white;
 }
-
-/*  Links */
+/* ?Links */
 
 a.links-white,
 a.links-white:link {
@@ -57,99 +29,80 @@ a.links-white:link {
   color: white;
 }
 
-/* * News Section */
+/* ! Home page main div */
 
-.section_news {
-  font-size: 1.6rem;
-  background: rgba(255, 255, 255, 0.5);
-  width: 35%;
-  margin-left: 10%;
-  color: black;
+.maindiv {
+  background-image: url(../../images/wallpaper7.jpg);
+  background-size: cover;
+  padding-bottom: 1rem;
+}
+
+/* !  home page main heading  and intro*/
+
+.nameHeading {
+  text-transform: uppercase;
   font-weight: 300;
-  line-height: 20px;
-  padding: 1%;
+  letter-spacing: 0.5rem;
+  font-size: 4rem;
+}
+.nameHeading::first-letter {
+  font-size: 7rem;
+}
+.intro {
+  text-align: center;
+  padding: 10rem;
+  line-height: 1;
+  font-size: 1.4rem;
 }
 
-/*  Links */
-
-a.links-black,
-a.links-black:link {
-  text-decoration: none;
-  color: black;
-}
-
-/* *** Section music */
+/* ! Section music */
 
 .section-music {
-  font-size: 1.6rem;
-  height:50rem;
-  width:34rem;
-  padding: 1rem;
-  margin-bottom: 5rem;
-  margin-left: -6%
-}
-
-/*  Links */
-
-a.links-black,
-a.links-black:link {
-  text-decoration: none;
-  color: black;
-}
-
-
-/* * contact Section */
-
-.section-contact {
-  font-size: 1.6rem;
-  width:50vh;
-  margin-left: 10%;
-  line-height: 20px;
-  padding: 1%;
-  margin-top: 10rem;
-  text-align: center
-}
-
-/* contact heading */
-
-.contact-heading {
-  color: white;
+  background-image: linear-gradient(360deg, #00000080 35%, #ffffff80 80%);
+  width: 50%;
+  margin: 2rem auto;
   font-weight: 300;
+  line-height: 3;
+  padding: 3rem;
+  font-size: 1.6rem;
+  color: white;
+}
+.music-home {
+  width: 34rem;
+  margin: 0 auto;
+
 }
 
-/* contact button */
+/* ? Responiveness */
 
-.contact-button {
-  display: block;
-  margin-top: 5%;
-  width: 290px;
-  height: 30px;
+/* ! first break point */
+@media only screen and (max-width: 800px) {
+  /* ? For all sections */
+  .section {
+    margin: 1rem auto;
+    line-height: 2;
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+  /* !  home page main heading  and intro*/
 
-}
+  .nameHeading {
+    letter-spacing: 0.4rem;
+    font-size: 4rem;
+  }
+  .nameHeading::first-letter {
+    font-size: 6rem;
+  }
 
-/* input for contact section for mailing */
-input.email {
-  width: 300px;
-  height: 30px;
-  text-rendering: auto;
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0;
-  text-shadow: none;
-  display: inline-block;
-  cursor: text;
-  border-image: initial;
-  border-radius: 0;
-  border-width: 1px;
-  background-color: rgba(5, 5, 5, 1);
-  box-sizing: border-box !important;
-  color: #ffffff;
-  border-style: solid;
-  border-color: rgba(255, 255, 0,1);
-  padding: 3px;
-  margin: 0;
-  max-width: 100%;
-  flex: 1;
-  text-overflow: ellipsis;
+  /* ! Section music */
+
+  .section-music {
+    background-image: linear-gradient(360deg, #00000080 35%, #ffffff80 80%);
+    width: 50%;
+    margin: 2 auto;
+    padding: 1rem;
+  }
+  .music-home{
+    width: 70%;
+  }
 }

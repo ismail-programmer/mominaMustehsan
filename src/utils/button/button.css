@@ -2,7 +2,7 @@
   width: 15rem;
   padding: 1rem 0;
   margin: 3rem 0;
-  background: #00ff00;
+  background: #544a7d;
   border-radius: 5px;
   color: #fff;
   border: none;
@@ -21,7 +21,7 @@
   width: 3px;
   position: absolute;
   transform: scaleY(0);
-  background: #fd70a0;
+  background: #ffd452;
   transition: width 0.4s 0.2s cubic-bezier(1, 0, 0, 1), transform 0.2s, ;
   top: 0;
   z-index: -1;

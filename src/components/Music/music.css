@@ -20,12 +20,11 @@ body {
     #ffd452 100%
   );
   width: 100%;
-  /* margin-left: -15.2%; */
   background-size: cover;
   padding-bottom: 16px;
 }
 
-/*  music page main heading  and description*/
+/*  ! music page main heading  and description*/
 
 .mainHeading {
   text-transform: uppercase;
