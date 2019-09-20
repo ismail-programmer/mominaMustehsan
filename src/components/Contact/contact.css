@@ -10,6 +10,7 @@
 /* heading of this page */
 .first-heading {
   font-size: 7rem;
+  color:white;
   margin: 0;
 }
 
@@ -19,6 +20,7 @@
   text-transform: uppercase;
   width: 50%;
   margin: 0 auto;
+  color: white;
 }
 
 .heading-2::first-letter {

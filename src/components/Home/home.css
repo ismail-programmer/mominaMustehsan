@@ -1,16 +1,19 @@
 /* ?  Universal */
 
 /* ? for black color  */
+
 .allBlack {
   color: black;
 }
 
 /*   *  Gap line <hr/> */
+
 .gap {
   width: 10%;
 }
 
 /* ? For all sections */
+
 .section {
   background-image: linear-gradient(360deg, #00000080 35%, #ffffff80 80%);
   width: 50%;
@@ -21,6 +24,7 @@
   font-size: 1.6rem;
   color: white;
 }
+
 /* ?Links */
 
 a.links-white,
@@ -58,21 +62,19 @@ a.links-white:link {
 /* ! Section music */
 
 .section-music {
-  background-image: linear-gradient(360deg, #00000080 35%, #ffffff80 80%);
-  width: 50%;
-  margin: 2rem auto;
-  font-weight: 300;
-  line-height: 3;
-  padding: 3rem;
   font-size: 1.6rem;
-  color: white;
+  height:50rem;
+  width:34rem;
+  margin: 0 auto
+  
 }
-.music-home {
-  width: 34rem;
+.music-home{
+  padding: 3rem;
+  margin-bottom: 5rem;
+  width: 50%;
   margin: 0 auto;
-
+  background-image: linear-gradient(360deg, #00000080 35%, #ffffff80 80%);
 }
-
 /* ? Responiveness */
 
 /* ! first break point */
@@ -83,6 +85,7 @@ a.links-white:link {
     line-height: 2;
     padding: 2rem;
     font-size: 1.5rem;
+    width: 70%;
   }
   /* !  home page main heading  and intro*/
 
@@ -95,14 +98,20 @@ a.links-white:link {
   }
 
   /* ! Section music */
-
+  .music-home{
+    width: 70%
+  }
   .section-music {
-    background-image: linear-gradient(360deg, #00000080 35%, #ffffff80 80%);
-    width: 50%;
-    margin: 2 auto;
+    /* background-image: linear-gradient(360deg, #00000080 35%, #ffffff80 80%); */
+    width: 100%;
+    height: auto;
+    margin: 2rem auto;
     padding: 1rem;
   }
-  .music-home{
-    width: 70%;
-  }
+}
+
+@media only screen and (max-width: 900px) {
+.section-music{
+  height: auto;
+}
 }

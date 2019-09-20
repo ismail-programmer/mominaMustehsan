@@ -5,10 +5,11 @@ import Music from './components/Music/Music';
 import Gallery from './components/Gallery/Gallery';
 import Bio from './components/Bio/Bio';
 import Contact from './components/Contact/Contact';
+import Owner from './components/Owner/Owner';
 
 import Home from './components/Home/Home';
 
-import Layout from './utils/hoc/layout/Layout';
+import Layout from './hoc/layout/Layout';
 
 
 
@@ -25,6 +26,7 @@ class App extends Component {
             <Route path='/gallery' component={Gallery} />
             <Route path='/bio' component={Bio} />
             <Route path='/contact' component={Contact} />
+            <Route path='/owner' component={Owner} />
           </Switch>
         </Layout>
       </BrowserRouter>

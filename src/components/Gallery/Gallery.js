@@ -5,15 +5,15 @@ import './gallery.css'
 //? Importing Images
 
 import img1 from "../../images/img36.jpg";
-// import img2 from "../../images/img37.jpg";
-// import img3 from "../../images/img23.jpg";
-// import img4 from "../../images/img24.jpg";
+import img2 from "../../images/img45.jpg";
+import img3 from "../../images/img46.jpg";
+import img4 from "../../images/img47.jpg";
 import img17 from "../../images/img41.jpeg";
-// import img5 from "../../images/img34.jpg";
-// import img6 from "../../images/img26.jpg";
+import img5 from "../../images/img48.jpg";
+import img6 from "../../images/img49.jpg";
 import img7 from "../../images/img27.jpg";
 import img8 from "../../images/img28.jpg";
-// import img9 from "../../images/img9.jpeg";
+import img9 from "../../images/img50.jpg";
 import img10 from "../../images/img44.jpeg";
 import img11 from "../../images/img43.jpeg";
 import img12 from "../../images/img30.jpg";
@@ -33,18 +33,18 @@ class Gallery extends Component {
   render() {
     return (
       <div className="img-container-main">
-        {/* <div className="row-grid">
-          <Image imgSrc={img2} imgId='img1' />
-          <Image imgSrc={img3} imgId='img2' />
-          <Image imgSrc={img21} imgId='img3'/>
-        </div> */}
+        <div className="row-grid">
+          <Image imgSrc={img2} imgId='img1' caption="Hill Station" />
+          <Image imgSrc={img3} imgId='img2' caption="Audotorium" />
+          <Image imgSrc={img4} imgId='img3' caption="Street of London"/>
+        </div> 
 
-        {/* <div className="row-grid">
-          <Image imgSrc={img5}  imgId='img4'/>
-          <Image imgSrc={img6}  imgId='img5'/>
-          <Image imgSrc={img4} imgId='img6' />
-        </div> */}
-        {/* <div className="row-grid">
+         <div className="row-grid">
+          <Image imgSrc={img5}  imgId='img4'caption="The Nursery of Plants" />
+          <Image imgSrc={img6}  imgId='img5'caption="Cup Tales" />
+          <Image imgSrc={img9} imgId='img6'caption="Chashma Neelam" />
+        </div>
+         {/* <div className="row-grid">
           <Image imgSrc={img9}  imgId='img7'/>
           <Image imgSrc={img13}  imgId='img8'/>
           <Image imgSrc={img15}  imgId='img9'/>

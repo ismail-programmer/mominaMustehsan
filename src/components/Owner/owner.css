@@ -1,0 +1,24 @@
+@import 'https://fonts.googleapis.com/css?family=Niconne&display=swap';
+.owner-name {
+  font-size: 10rem;
+  font-family: 'Niconne', cursive;
+  text-decoration: none;
+  background-image: linear-gradient(180deg, #7d524a, #ff52a9);
+  /* text-shadow: 0 .5rem 7rem #fff; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 0 3rem;
+}
+.owner-a {
+  text-decoration: none;
+  color: inherit;
+}
+.owner-a:hover {
+  color: #7d524a;
+}
+.ownerPage {
+  background-size: cover;
+  background-image: linear-gradient(#544a7d, #ffd452);
+  padding: 5rem 0;
+}
