@@ -1,0 +1,122 @@
+.bio-pic {
+    max-height: 250px;
+    float: right;
+}
+
+.bio-pg {
+    font-size: 1.8rem;
+    line-height: 2;
+    width: 100%;
+}
+
+.bio-container {
+    width: 45%;
+    float: left;
+    padding: 2.5rem;
+    margin: 0.7rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.bio-m{
+    max-width: 130rem;
+    margin: 0 auto;
+    display: flex;
+}
+.bio-h1 {
+    font-size: 4.5rem
+}
+.bio-m::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.bio-container-main {
+    /* height: 330rem; */
+    background-image: url(../../images/bio-bg.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position-y: -15rem;
+    float: left;
+    width: 100%;
+    padding-top: 5rem;
+    margin-top: -3rem
+}
+
+.p2 {
+    line-height: 2.5;
+}
+
+.p3 {
+    line-height: 2.2
+}
+
+.bio-container-sub {
+    width: 94.5%;
+    padding: 2.5rem;
+    margin: 0.7rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    float: left;
+    transform: translateY(-3rem)
+}
+
+.p4 {
+    line-height: 2.3;
+}
+.p5 {
+    line-height: 2.6
+}
+
+.p6 {
+    line-height: 3
+}
+
+
+@media (max-width:1297px){
+    .bio-h1{
+        font-size: 3.5rem
+    }
+    .bio-pg{
+        font-size: 1.6rem
+    }
+    .bio-container{
+        width: 80%;
+        margin: 1rem auto
+    }
+    .bio-m{
+        display: block
+    }
+    .bio-container-main{
+        background-image: url(../../images/img36.jpg);
+        background-size: cover;
+        background-position-y: 0;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        
+    }
+    .bio-pic {
+        max-height: 200px;
+        float: right;
+    }
+  }
+  @media (max-width:525px){
+    .bio-h1{
+      font-size: 2.8rem
+    }
+    .bio-pg{
+        font-size: 1.2rem
+    }
+    .bio-container-main{
+        background-position-y: 0
+    }
+    .bio-pic {
+        max-height: 150px;
+        float: right;
+    }
+}
+@media (max-width:365px){
+    .bio-container-main{
+        background-position-x: -5rem;
+      }
+  }

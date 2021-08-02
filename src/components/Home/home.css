@@ -1,0 +1,117 @@
+/* ?  Universal */
+
+/* ? for black color  */
+
+.allBlack {
+  color: black;
+}
+
+/*   *  Gap line <hr/> */
+
+.gap {
+  width: 10%;
+}
+
+/* ? For all sections */
+
+.section {
+  background-image: linear-gradient(360deg, #00000080 35%, #ffffff80 80%);
+  width: 50%;
+  margin: 2rem auto;
+  font-weight: 300;
+  line-height: 3;
+  padding: 3rem;
+  font-size: 1.6rem;
+  color: white;
+}
+
+/* ?Links */
+
+a.links-white,
+a.links-white:link {
+  text-decoration: none;
+  color: white;
+}
+
+/* ! Home page main div */
+
+.maindiv {
+  background-image: url(../../images/wallpaper7.jpg);
+  background-size: cover;
+  padding-bottom: 1rem;
+}
+
+/* !  home page main heading  and intro*/
+
+.nameHeading {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.5rem;
+  font-size: 4rem;
+}
+.nameHeading::first-letter {
+  font-size: 7rem;
+}
+.intro {
+  text-align: center;
+  padding: 10rem;
+  line-height: 1;
+  font-size: 1.4rem;
+}
+
+/* ! Section music */
+
+.section-music {
+  font-size: 1.6rem;
+  height:50rem;
+  width:34rem;
+  margin: 0 auto
+  
+}
+.music-home{
+  padding: 3rem;
+  margin-bottom: 5rem;
+  width: 50%;
+  margin: 0 auto;
+  background-image: linear-gradient(360deg, #00000080 35%, #ffffff80 80%);
+}
+/* ? Responiveness */
+
+/* ! first break point */
+@media only screen and (max-width: 800px) {
+  /* ? For all sections */
+  .section {
+    margin: 1rem auto;
+    line-height: 2;
+    padding: 2rem;
+    font-size: 1.5rem;
+    width: 70%;
+  }
+  /* !  home page main heading  and intro*/
+
+  .nameHeading {
+    letter-spacing: 0.4rem;
+    font-size: 4rem;
+  }
+  .nameHeading::first-letter {
+    font-size: 6rem;
+  }
+
+  /* ! Section music */
+  .music-home{
+    width: 70%
+  }
+  .section-music {
+    /* background-image: linear-gradient(360deg, #00000080 35%, #ffffff80 80%); */
+    width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+.section-music{
+  height: auto;
+}
+}

@@ -1,0 +1,141 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ! Music page main div */
+.Music-Section {
+  background-image: linear-gradient(
+    #544a7d 12%,
+    #ffd452 12%,
+    #ffd452 30%,
+    #544a7d 30%,
+    #544a7d 48%,
+    #ffd452 48%,
+    #ffd452 66%,
+    #544a7d 66%,
+    #544a7d 84%,
+    #ffd452 84%,
+    #ffd452 100%
+  );
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 16px;
+}
+
+/*  ! music page main heading  and description*/
+
+.mainHeading {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 6.3px;
+  font-size: 8rem;
+}
+.mainHeading::first-letter {
+  font-size: 15rem;
+}
+.pageHeading {
+  padding: 10rem 0rem;
+  line-height: 12px;
+  color: #ffd452;
+  text-shadow: 0px 4px 2rem #000;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+/* paragraph of heading */
+.description {
+  font-size: 2.3rem;
+}
+.description::first-letter {
+  font-size: 5rem;
+}
+
+/* ! Grids */
+
+.music-cards {
+  width: 100%;
+  height: 100%;
+  transform: translateX(-10rem);
+}
+audio {
+  outline: none;
+  max-width: 250px;
+}
+.row-test {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.row-test:not(:last-child) {
+  margin-bottom: 8rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .row-test:not(:last-child) {
+    margin-bottom: 6rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .row-test {
+    max-width: 50rem;
+    padding: 0 3rem;
+  }
+}
+
+.row-test::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.row-test [class^='col-'] {
+  float: left;
+}
+
+.row-test [class^='col-']:not(:last-child) {
+  margin-right: 6rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .row-test [class^='col-']:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 6rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .row-test [class^='col-'] {
+    width: 100% !important;
+  }
+}
+
+.row-test .col-1-of-3 {
+  width: calc((100% - 2 * 6rem) / 3);
+}
+/* 
+* for i frames
+
+! Track sectin-2
+.track_section-1 {
+  width: 40%;
+  height: 20%;
+  margin-left: 5%;
+  padding: 1%;
+  float: left;
+}
+
+
+! Track sectin-2
+.track_section-2 {
+  width: 40%;
+  height: 20%;
+  margin-right: 10%;
+  margin-top: 30%;
+  padding: 1%;
+  float: right;
+} 
+
+*/
