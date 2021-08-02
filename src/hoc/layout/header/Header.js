@@ -35,11 +35,6 @@ class Header extends Component {
                 <button className='header-btn'>Contact</button>
               </Link>
             </li>
-            <li className='header-li'>
-              <Link className='header-a' to='/owner'>
-                <button className='header-btn'>Owner</button>
-              </Link>
-            </li>
           </ul>
           <ul className='header-ul-2'>
             <li className='header-li-2'>
